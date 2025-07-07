@@ -6,7 +6,14 @@ export const appwriteConfig = {
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.teds.foodordering",
     databaseId: "686a04e9003ab2a82b30",
+    bucketId: "686ba319000647f6c9f8",
     userCollectionId: "686a0520000ff5ad0fb9",
+    categoriesCollectionId: "686b9d40003c99c46e10",
+    menuCollectionId: "686b9f370029acc61520",
+    customizationsCollectionId: "686ba12600197dfa8b02",
+    menuCustomizationCollectionId: "686ba2160004f4975320",
+
+
 }
 
 export const client = new Client();
